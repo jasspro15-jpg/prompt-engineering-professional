@@ -5,19 +5,19 @@ A professional, platform-neutral AI skill for designing, rewriting, evaluating, 
 ## Install with npx
 
 ```bash
-npx skills add jasspro15-jpg/prompt-engineering-professional
+npx skills add https://github.com/jasspro15-jpg/prompt-engineering-professional --skill prompt-engineering-professional
 ```
 
 For global/user-level installation:
 
 ```bash
-npx skills add jasspro15-jpg/prompt-engineering-professional -g
+npx skills add https://github.com/jasspro15-jpg/prompt-engineering-professional --skill prompt-engineering-professional -g
 ```
 
 For the current project:
 
 ```bash
-npx skills add jasspro15-jpg/prompt-engineering-professional -y
+npx skills add https://github.com/jasspro15-jpg/prompt-engineering-professional --skill prompt-engineering-professional -y
 ```
 
 ## Manual installation
@@ -26,7 +26,7 @@ npx skills add jasspro15-jpg/prompt-engineering-professional -y
 git clone https://github.com/jasspro15-jpg/prompt-engineering-professional.git
 ```
 
-Copy `SKILL.md` into the AI tool's skills directory, or paste its Markdown body into project/system instructions when the tool has no native skill support.
+Copy `skills/prompt-engineering-professional/SKILL.md` into the AI tool's skills directory, or paste its Markdown body into project/system instructions when the tool has no native skill support.
 
 ## Coverage
 
